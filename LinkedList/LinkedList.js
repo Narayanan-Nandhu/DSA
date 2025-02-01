@@ -158,7 +158,12 @@ linkedList.push(2)
 linkedList.push(3)
 linkedList.push(4)
 
-linkedList.reverse();
+// linkedList.reverse();
 
 console.log('LINKED LIST........');
+
+let b = linkedList.delete(1);
+
+console.log("DELETEd", b);
+
 console.dir(linkedList, {depth: null});
